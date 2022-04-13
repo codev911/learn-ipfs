@@ -26,6 +26,15 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Installation IPFS NODE
+
+```bash
+$ sudo snap install ipfs
+$ ipfs init
+$ ipfs config profile apply server
+$ ipfs daemon
+```
+
 ## Installation
 
 ```bash
