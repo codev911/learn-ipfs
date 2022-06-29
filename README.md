@@ -32,6 +32,8 @@
 $ sudo snap install ipfs
 $ ipfs init
 $ ipfs config profile apply server
+$ ipfs config --json Swarm.EnableHolePunching true
+$ ipfs config --json Swarm.RelayClient.Enabled true
 $ ipfs daemon
 ```
 
